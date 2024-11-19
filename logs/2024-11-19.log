@@ -1,0 +1,6 @@
+[2024-11-19T01:52:12.520Z] INFO: Serveur démarré sur le port 5001
+[2024-11-19T01:52:13.997Z] INFO: GET /api/status
+[2024-11-19T01:52:14.011Z] INFO: GET /api/status
+[2024-11-19T01:52:14.014Z] INFO: GET /api/accounts
+[2024-11-19T01:52:14.051Z] INFO: GET /api/accounts
+[2024-11-19T01:52:28.663Z] INFO: POST /api/jobs/1/activities

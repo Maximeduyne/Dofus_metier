@@ -1,0 +1,32 @@
+export const DOFUS_SERVERS = [
+  'Draconiros',
+  'Hellmina',
+  'Imagiro',
+  'Merkator',
+  'Orukam',
+  'Talkasha',
+  'Temporis',
+  'Tylezia',
+];
+
+export const DOFUS_CLASSES = [
+  'Cra',
+  'Ecaflip',
+  'Eliotrope',
+  'Eniripsa',
+  'Enutrof',
+  'Feca',
+  'Forgelance',
+  'Huppermage',
+  'Iop',
+  'Ouginak',
+  'Osamodas',
+  'Pandawa',
+  'Roublard',
+  'Sacrieur',
+  'Sadida',
+  'Sram',
+  'Steamer',
+  'Xelor',
+  'Zobal',
+];

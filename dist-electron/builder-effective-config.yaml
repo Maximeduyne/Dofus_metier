@@ -1,0 +1,26 @@
+directories:
+  output: dist-electron
+  buildResources: build
+appId: com.dofusmetiers.app
+productName: Dofus Métiers
+asar: true
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+      - package.json
+extraMetadata:
+  main: electron/main.cjs
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  uninstallDisplayName: Dofus Métiers
+  artifactName: Dofus-Metiers-Setup-${version}.${ext}
+electronVersion: 28.3.3
